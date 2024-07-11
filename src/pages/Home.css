@@ -1,0 +1,147 @@
+.container1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#banner {
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(0, 0%, 11%, 0.795), rgb(20, 209, 121));
+    background-size: cover;
+    padding-top: 0;
+}
+
+
+
+#banner .text {
+    color: #060606;
+}
+
+#banner .card{
+    background: #fff;
+}
+
+
+#banner .ok {
+    margin-top: 120px;
+}
+
+#banner .self {
+    font-size: 30px;
+    font-weight: 5;
+    font-style: italic;
+}
+
+#banner .card {
+    background: transparent;
+    border: 0;
+}
+
+
+
+#banner .card .btn-brand {
+    color: #ffffff;
+   background-color: #0e0e0ef1;
+}
+
+#banner .card .btn-brand:hover {
+    color: #05000c;
+    background-color: rgb(145, 8, 236);
+    font-weight: 800;
+}
+
+#info .btn-brand {
+    color: #ac08ed;
+    
+}
+
+
+#info img {
+    width: 150px;
+    align-self: center;
+    margin-bottom: 20px;
+    filter: drop-shadow(15px 8px 2px rgba(0, 0, 0, 0.374));
+}
+
+/*  */
+
+.sea-waves {
+    display: block;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background: linear-gradient(to right, hsl(0, 0%, 11%, 0.795), rgb(252, 252, 252));
+  }
+  
+  .sea-wave1 use {
+    -webkit-animation: move-forever1 10s linear infinite;
+    animation: move-forever1 10s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+  }
+  
+  .sea-wave2 use {
+    -webkit-animation: move-forever2 8s linear infinite;
+    animation: move-forever2 8s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+  }
+  
+  .sea-wave3 use {
+    -webkit-animation: move-forever3 6s linear infinite;
+    animation: move-forever3 6s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+  }
+  
+ 
+  
+  .radio-waves {
+    display: block;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background: linear-gradient(to right, hsl(286, 97%, 48%), rgb(252, 252, 252));
+  }
+  
+  .radio-wave1 use {
+    -webkit-animation: move-forever1 10s linear infinite;
+    animation: move-forever1 10s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+    
+  }
+  
+  .radio-wave2 use {
+    -webkit-animation: move-forever2 8s linear infinite;
+    animation: move-forever2 8s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+    
+  }
+  
+  .radio-wave3 use {
+    -webkit-animation: move-forever3 6s linear infinite;
+    animation: move-forever3 6s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+    
+  }
+  
+
+  #info1{
+    background: linear-gradient(to right, hsl(0, 0%, 73%), rgb(43, 43, 43));
+  }
+  #footer{
+    background: linear-gradient(to right, hsl(0, 0%, 11%, 0.795), rgb(252, 252, 252));
+    
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    
+  }
+  #home1{
+    background: linear-gradient(to right, hsl(0, 0%, 11%, 0.795), rgb(252, 252, 252));
+
+  }
